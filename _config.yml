@@ -72,8 +72,8 @@ theme: landscape
 deploy:
   type: rsync
   host: 111.230.233.56
-  user: h
-  root: /
+  user: root
+  root: /usr/share/nginx/www/
   port: 22
   delete: false
   args: ''
